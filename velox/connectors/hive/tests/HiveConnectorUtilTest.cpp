@@ -52,6 +52,7 @@ TEST_F(HiveConnectorUtilTest, configureReaderOptions) {
       pool_.get(),
       &sessionProperties,
       nullptr,
+      nullptr,
       common::PrefixSortConfig(),
       nullptr,
       nullptr,
